@@ -1,0 +1,12 @@
+server_port = 4433
+local_port = 24800
+
+[server]
+host = "0.0.0.0"
+
+[client]
+host = "127.0.0.1"
+
+[tls]
+cert = "server.crt"
+key = "server.key"
