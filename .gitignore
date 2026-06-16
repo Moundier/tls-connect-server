@@ -1,0 +1,25 @@
+# Sensitive Files
+*.crt
+*.key
+*.pem
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Dependencies
+.env
+.venv
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+.tox/
+
+# IDE / Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
