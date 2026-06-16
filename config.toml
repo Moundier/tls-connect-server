@@ -1,11 +1,12 @@
-server_port = 4433
-local_port = 24800
-
 [server]
 host = "0.0.0.0"
+listen_port = 4433     # The port the server binds and listens on
+port = 4433            # Used by the client to connect to the server
 
 [client]
 host = "127.0.0.1"
+listen_port = 24800    # Local port the client listens on for your app
+app_port = 24800       # Port the server forwards data to on its local app
 
 [tls]
 cert = "server.crt"
